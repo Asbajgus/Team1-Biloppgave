@@ -1,17 +1,17 @@
 // carModel.js
 
 let coolCarItems = [
-    { name: "redWing", image: "images/car-back.jpg" },
-    { name: "coolRims", image: "images/cool-rims.jpg" },
-    { name: "coolDoor", image: "images/cool-door.png" },
-    { name: "coolFront", image: "images/coolCarFront.png" }
+    { name: "redWing", image: "images/car-back.jpg", item: "1" },
+    { name: "coolRims", image: "images/cool-rims.jpg", item: "2" },
+    { name: "coolDoor", image: "images/cool-door.png", item: "3" },
+    { name: "coolFront", image: "images/coolCarFront.png", item: "4" }
 ];
 
 let badCarItems = [
-    { name: "rustyCarBack", image: "images/ugly car back.jpg" },
-    { name: "uglyRim", image: "images/ugly-rims.jpg" },
-    { name: "uglyCarDoor", image: "images/uglyCarDoor.png" },
-    { name: "uglyCarfront", image: "images/uglyCarFront.png" }
+    { name: "rustyCarBack", image: "images/ugly car back.jpg", item: "1" },
+    { name: "uglyRim", image: "images/ugly-rims.jpg", item: "2" },
+    { name: "uglyCarDoor", image: "images/uglyCarDoor.png", item: "3" },
+    { name: "uglyCarfront", image: "images/uglyCarFront.png", item: "4" }
 ];
 
 let number = 0;
@@ -60,15 +60,3 @@ export {
     setNumber, 
     setNumber2 
 };
-
-
-
-
-
-
-
-
-
-
-
-
