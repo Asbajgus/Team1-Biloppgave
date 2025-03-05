@@ -1,0 +1,50 @@
+#badCars {
+  
+}
+#coolCars {
+    
+}
+
+#redWing {
+    height: 20%;
+    width: 20%;
+}
+
+#coolRims {
+    height: 20%;
+    width: 20%;
+}
+
+#rustyCarBack {
+    height: 20%;
+    width: 20%;
+}
+
+#uglyRim {
+    height: 20%;
+    width: 20%;
+}
+
+#coolDoor {
+    height: 20%;
+    width: 20%;
+}
+
+#uglyCarDoor {
+    height: 20%;
+    width: 20%;
+}
+
+#coolFront {
+    height: 20%;
+    width: 20%;
+}
+
+#uglyCarfront {
+    height: 20%;
+    width: 20%;
+}
+
+ #badCars{
+    transform: translateX(500px) translateY(-810px);
+}
