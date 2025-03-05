@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        :root{
+            --poenglistebredde: 100px;
+        }
+
+        #poenglistene{
+            display: flex;
+        }
+
+        #bilPoeng{
+            font-size: 40px;
+            border: solid;
+            width: var(--poenglistebredde);
+            height: 50px;
+        }
+        #poeng{
+            font-size: 40px;
+            border: solid;
+            width: var(--poenglistebredde);
+            height: 50px;
+            margin-left: 80%;
+        }
+        #kjøreturen{
+            display: block;
+
+            border: solid;
+            width: 300px;
+            height: 100px;
+        }
+        #turOgTekst{
+            margin-left: calc(40% - (var(--poenglistebredde)/2));
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
+    <div id="poenglistene">
+        <div id="bilPoeng">3/5</div>
+        <div id="poeng">2</div>
+    </div>
+    
+    <div id="turOgTekst">
+        <div id="kjøreturen">Her står det om kjøreturen</div>
+        <input type="text" style="margin-left: 60px;" placeholder="Her skrives svaret">
+    </div>
 
-    <h1>spill</h1>
 
-    <h1>Hei og hå!</h1>
     <script src="model.js"></script>
     <script src="view.js"></script>
     <script src="controller.js"></script>
