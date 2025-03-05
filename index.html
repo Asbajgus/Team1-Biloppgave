@@ -42,18 +42,40 @@
         }
     </style>
 </head>
-<body>
-    <div id="poenglistene">
-        <div id="bilPoeng">3/5</div>
-        <div id="poeng">2</div>
-    </div>
+<body onload="updateView()">
+
+    <div id="app"></div>
+
+
+    <script>
+        let appen = document.getElementById('app');
+
+        let menneskeLista = ["kompis", "gamlis", 'snut']
+        let svar = ["halla", "olding", "fuck off!"]
+
+
+        function updateView(){
+            appen.innerHTML = /*html*/`
+                <div id="poenglistene">
+                    <div id="bilPoeng">3/5</div>
+                    <div id="poeng">2</div>
+                </div>
+
+                <div id="turOgTekst">
+                    <div id="kjøreturen">Her står det om kjøreturen</div>
+                    <input type="text" style="margin-left: 60px;" placeholder="Her skrives svaret">
+                </div>
+
+            `;
+        }
     
-    <div id="turOgTekst">
-        <div id="kjøreturen">Her står det om kjøreturen</div>
-        <input type="text" style="margin-left: 60px;" placeholder="Her skrives svaret">
-    </div>
-
-
+    
+    
+    
+    
+    
+    
+</script>
     <script src="model.js"></script>
     <script src="view.js"></script>
     <script src="controller.js"></script>
